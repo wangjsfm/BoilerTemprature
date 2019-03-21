@@ -118,7 +118,7 @@ def schGrqTask():
 def voiceAlerm():
 
     # 语音报警参数设置
-    engine = pyttsx3.init()
+
     engine = pyttsx3.init()
     rate = engine.getProperty('rate')
     engine.setProperty('rate', rate - 71)  # 播放速度
